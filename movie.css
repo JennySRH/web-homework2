@@ -30,9 +30,10 @@ h1{
 }
 
 #rotten{
-    margin-top: -10.6px;
+    position:absolute;
     background-image: url('rottenbackground.png');
     background-repeat: repeat;
+    width: 550px;
     font-size: 8pt;
     height: 83px;
     color:white;
@@ -46,4 +47,21 @@ h1{
 #number{
     font-size: 48pt;
     color: red;
+}
+
+#generaloverview{
+    float: right;
+    width:250px;
+
+}
+
+#info{
+    position: relative;
+    margin-top: 410px;
+    background-color:#A2B964; 
+    position: relative;
+    float: right;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width:250px;
 }
