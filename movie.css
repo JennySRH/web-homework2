@@ -29,8 +29,40 @@ h1{
     border-color: gray;
 }
 
-#rotten{
-    position:absolute;
+
+#whole #leftreviews{
+    float: left;
+    width: 550px;
+
+}
+
+#whole #leftreviews .left_left_reviews{
+    width:47%; 
+    margin-top: 2%;
+    margin-left: 2%;     
+    float: left;
+}
+
+#whole .lr{
+    margin-top: 2%;
+}
+
+
+
+#whole #leftreviews .left_right_reviews {
+    width: 47%;
+    margin-top: 2%;
+    margin-left:2%;
+    float: left;
+
+}
+
+#whole .rr{
+    margin-top: 2%;
+}
+
+#whole #rotten{
+    float: left;
     background-image: url('rottenbackground.png');
     background-repeat: repeat;
     width: 550px;
@@ -39,48 +71,45 @@ h1{
     color:white;
 }
 
-#rottenimg{
+#whole #rottenimg{
     float: left;
     
 }
 
-#number{
+#whole #number{
     font-size: 48pt;
     color: red;
 }
 
-#generaloverview{
-    float: right;
+#whole #right_part{
+    float: left;
     width:250px;
-
+    background-color:#A2B964; 
 }
 
-#info{
-    margin-top: 412px;
-    background-color:#A2B964; 
-    position: absolute;
-    margin-left: 550px;
-    float: right;
+#whole #right_part dt{
+    font-weight: bold;
+}
+
+#whole #right_part #info{
+    padding: 10px;
     font-size: 8pt;
     font-family: Arial, Helvetica, sans-serif;
-    width:250px;
 }
 
-#leftreviews{
-    width: 550px;
-    margin-top: 12%;
-    margin-left: 2%;
-
+#whole #right_part #info .info_part{
+    margin-top: 1em;
 }
 
-.lr{
-    width:47%;
-    margin-top: 8px;
+
+#whole #page{
+    text-align: center;
+    background-color:#A2B964;
+    clear: both;
 }
 
-.rr{
-    top: 12%;
-    margin-right:2%;
-    width:47%;
-    margin-top: 8px;
+#whole #page p{
+    padding: 5px;
+    margin:0%;
+
 }
