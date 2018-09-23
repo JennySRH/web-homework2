@@ -44,7 +44,7 @@ h1{
 }
 
 #whole .lr{
-    margin-top: 2%;
+    margin-bottom: 3em;
 }
 
 
@@ -57,8 +57,37 @@ h1{
 
 }
 
+.lr_reviews{
+    padding-left: 8px;
+    padding-right: 8px;
+    border-width:2px;
+    border-color: gray;
+    border-style: solid; 
+    background-color: #E1D697;
+    font-family: Tahoma,Verdana, Geneva,  sans-serif;
+    font-weight: bold;
+}
+
+.critic img{
+    float: left;
+    margin-right: 5px;
+}
+
+.critic{
+    font-family: Verdana,Tahoma,sans-serif;
+}
+
+.to_italic{
+    font-style: italic;
+}
+
+.lr_reviews img{
+    float: left;
+    margin-right:5px;
+}
+
 #whole .rr{
-    margin-top: 2%;
+    margin-bottom: 3em;
 }
 
 #whole #rotten{
@@ -76,10 +105,17 @@ h1{
     
 }
 
-#whole #number{
+#whole #rotten #number{
     font-size: 48pt;
+    font-weight: bold;
     color: red;
 }
+
+#whole #rotten p{
+    margin:1%;
+}
+
+
 
 #whole #right_part{
     float: left;
@@ -112,4 +148,10 @@ h1{
     padding: 5px;
     margin:0%;
 
+}
+
+#icon{
+    position: fixed;
+    right:0px;
+    bottom: 0px;
 }
